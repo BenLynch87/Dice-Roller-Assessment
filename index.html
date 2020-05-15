@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link type="text/css" rel="stylesheet" href="assets/style/style.css"/>
+</head>
+<body>
+    
+    <fieldset>
+        <label for="dieSides">Which die will you roll?</label>
+        <select name="die" id="die">
+            <option value="4">d4</option>
+            <option value="6">d6</option>
+            <option value="8">d8</option>
+            <option value="10">d10</option>
+            <option value="12">d12</option>
+            <option value="20">d20</option>
+        </select>
+        <br>
+        <label for="textbox">How many dice will you roll?:</label>
+        <input type="text" name="die-input" id="textbox">
+        <button id="roll-button">Roll!</button>
+    
+
+    <div id="Total"></div>
+
+    <button id="showRolls">Show All Rolls</button>
+    <button id ="reset">Reset</button>
+    <ol id="rollsList">
+    </ol>
+    </fieldset>
+    
+    <script src="assets/javascript/main.js"></script>
+</body>
+</html>
